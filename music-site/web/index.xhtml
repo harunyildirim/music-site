@@ -12,9 +12,8 @@
         <div id="search">
  	    <h:form id="search"> 
  	 	
-                    <h:outputLabel value="Simple :" for="acSimple" />  
-                    <p:autoComplete id="search" value="#{autoCompleteBean.txt1}"   
-                    completeMethod="#{autoCompleteBean.complete}"/> 
+                      
+                    <p:inputText id="search" value="#{searchBean.query}"  /> 
  	 	
  	 	
             </h:form>
