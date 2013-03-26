@@ -21,6 +21,9 @@
         -moz-transition: all 0.7s ease 0s;
         -o-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
+        position: relative;
+        top: 285px;
+        float: left;
         }
 
 #search input[type="text"]:focus {
