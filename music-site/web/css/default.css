@@ -4,11 +4,15 @@
 
 
 #search input[type="text"] {
-        background: url(../images/search-white.png) no-repeat 10px 6px #444;
+        background:url(../images/search-white.png) no-repeat 10px 6px #444;
+        
+        background-position-x:170px;
+        background-position-y: 8px;
         border: 0 none;
-        font: bold 12px Arial,Helvetica,Sans-serif;
+        font: bold 18px Arial,Helvetica,Sans-serif;
         color: #d7d7d7;
         width:150px;
+        height: 22px;
         padding: 6px 15px 6px 35px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
@@ -22,14 +26,17 @@
         -o-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
         position: relative;
-        top: 285px;
+        top: 280px;
+        margin-left: 100px;
         float: left;
         }
 
 #search input[type="text"]:focus {
-        background: url(../images/search-dark.png) no-repeat 10px 6px #fcfcfc;
-        color: #6a6f75;
+        background: url(../images/search-dark.png) no-repeat 100px 6px #444;
+        color: #f4f2e6;
         width: 200px;
+        background-position-x:220px;
+        background-position-y: 8px;
         -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
         -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
@@ -41,3 +48,10 @@
         -o-background-size: cover;
         background-size: cover;
         }
+ #cubuk { background-image: url(../images/menust.png); 
+          border-style: none; margin:0px; font-size:11px; font-family: Trebuchet MS, Arial, 
+          Verdana; top: 0px; margin-bottom:0px; padding:0px; z-index:1; height: 34px; left: 0px;
+          position: fixed; right: 0px; color: #fff; width: 100%; } 
+          .incubuksol { float: left; margin: 0px; } 
+          .incubukorta { float: center; margin: 5px; } 
+          .incubuksag { float: right; margin: 1px; }

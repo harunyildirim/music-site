@@ -4,17 +4,31 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:p="http://primefaces.org/ui">
       
+      
     <h:head>
         <title>Music</title>
          <h:outputStylesheet name="../css/default.css" />
     </h:head>
     <h:body>
+        <div id="cubuk">
+            <div class="incubuksol">
+                <img width="88" height="35" border="0" title="Anasayfa" src="images/malt.png" />
+            </div> 
+            <div class="incubuksag">
+                <a href="https://www.facebook.com" >
+                    <img border="0" width="35" height="33" style="margin-top: 0px" title="facebook/" src="images/fc.png" />
+                </a> 
+                <a href="https://twitter.com" >
+                    <img border="0" width="35" height="33" title="twitter/" src="images/tw.png"/></a></div> 
+            <div class="incubukorta">
+                <center><br /> </center></div>
+        </div>
         <div id="search">
  	    <h:form id="search"> 
  	 	
                       
-                    <p:inputText id="search" value="#{searchBean.query}"  /> 
- 	 	
+                <p:inputText id="search" value="#{searchBean.query}" /> 
+ 	 	    
  	 	
             </h:form>
 			
